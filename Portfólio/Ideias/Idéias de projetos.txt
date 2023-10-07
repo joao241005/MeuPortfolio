@@ -1,0 +1,7 @@
+Idéias de  projetos para o portfólio:
+
+21 em python:
+
+sistema de cadastro e login (orientado a objetos)
+
+

@@ -1,0 +1,287 @@
+*{
+    background-color: #0c1019;
+    scroll-behavior: smooth;
+}
+
+body{
+    display:flex;
+    flex-direction: column;
+}
+
+#container{
+    display: flex;
+    width: 100%;
+    height: 12vh;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 1;
+    flex-grow: 1;
+    flex-basis: 100%;
+    background-color: rgba(12, 16, 25, 0.5);
+    backdrop-filter: blur(15px);
+    justify-content:right;
+    background-color:transparent;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+#container:hover{
+     filter: invert(10%);    
+}
+
+#container a{
+    display: flex;
+    position: relative;
+    margin: 4vh;
+    right: 10vh;
+    color: white;
+    text-decoration:none;
+    align-items: center;
+    background-color:transparent;
+}
+
+#container a:hover{
+    color: #477c89;
+    transition-duration: 0.2s;
+    cursor: pointer;
+}
+
+#container #Btn_Resumo{
+    width: 12.5vh;
+    height: 4vh;
+    color:#020131;
+    background-color:#477c89;
+    border-radius:6px;
+    justify-content: center;
+}
+
+#container #Btn_Resumo:hover{
+    cursor: pointer;
+    color: white;
+    transform: translate(0, -3px);
+    transition: 0.3s;
+}
+
+#img{
+    position: relative;
+    display: flex;
+    align-items: end;
+    width: 50vh;
+    height: auto;
+    left: 140vh;
+    bottom:50vh;
+    border-radius: 10%;
+}
+
+#apresentacao_resumo{
+    position: relative;
+    top:30vh;
+    margin: 0;
+    left: 30vh;
+    width: fit-content;
+    height: 45vh;
+    background-color: transparent;
+    font-size:4vh;
+    font-family:sans-serif;
+}
+
+#apresentacao_resumo h1,p,h4{
+    position:relative;
+    display:flex;
+    margin-left: 0vh;
+    margin:0;
+}
+
+#apresentacao_resumo h4{
+    font-weight: normal;
+}
+
+#apresentacao_resumo h1{
+    color: #477c89;
+}
+
+#apresentacao_resumo p,h4{
+    color: white;
+    font-size:90%;
+}
+
+#apresentacao_resumo #txt{
+    color: #477c89;
+    position: relative;
+    top: 4.1vh;
+    right: 59.9vh;
+}
+
+#resumo button{
+    position:relative;
+    width: 17vh;
+    height: 7vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    top: 23vh;
+    left: 30vh;
+    background-color:#477c89;
+    /* color: #01040C; */
+    border-radius: 6px;
+    border: none;
+    /* font-family: 'Montserrat', sans-serif; */
+    font-weight: 600;
+    font-size: var(--bs-body-font-size);
+}
+
+#resumo button:hover{
+    color:#dcd8d8;
+    cursor: pointer;
+    transform: translate(0, -3px);
+    transition: 0.2s;
+    box-shadow: 0px 20px 70px -10px #477c89; 
+}
+
+#main{
+    display: flex;
+    flex-direction: column;
+}
+
+#experiencia{
+    position:relative;
+    left:30vh;
+    width:fit-content;
+    flex-direction: column;
+}
+
+#textos_experiencia{
+    width:87vh;
+    height: fit-content;
+}
+
+#textos_experiencia h2{
+    margin:0;
+    color:#ffffffff;
+    position:relative;
+    font-family:sans-serif;
+    font-weight: 750;
+    font-size: 3em;
+    width:42vh;
+}
+
+#textos_experiencia p{
+    display: block;
+    color:#ffffffff;
+    font-family:sans-serif;
+    font-weight: 750;
+    font-size: 1.2em; 
+}
+
+#gif{
+    display: flex;
+    position: relative;
+    width: 30vh;
+    left:110vh;
+    bottom:10vh;
+}
+
+#textos_experiencia p{
+    font-size:20px;
+    font-family: sans-serif;
+    font-weight: 200;
+}
+
+#textos_experiencia #l{
+    color:#477c89;
+}
+
+#textos_experiencia #t{
+    color:#477c89;   
+}
+
+#textos_experiencia .img_Linguegens{
+    width: 10%;
+    position: relative;
+    display:inline;
+}
+
+#imagens{
+    margin: 4rem 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+#PrincipaisProjetos{
+    position: relative;
+    left: 30vh;
+    top: 20vh;
+    width: fit-content;
+    font-family:sans-serif;
+    color:white;
+}
+
+#PrincipaisProjetos h1{
+    color:#ffffff;
+    font-size:xxx-large;
+    font-size: 3em;
+}
+
+#Projetos{
+    display:flex;
+    width:fit-content;
+}
+
+
+
+#TCC{
+    margin-top: 5vh;
+    width:80%;
+    height: fit-content;
+    position: relative;
+    top:20vh;
+    left: 30vh;
+    color: #ffffff;
+    font-family: sans-serif;
+    font-size:3vh;
+}
+
+#TCC a{
+    text-decoration:none;
+    color:#477c89;
+}
+
+
+#OrganizacaoeProjeto{
+    display:flex; 
+}
+
+#OrganizacaoeProjeto #Projeto{
+    position:relative;
+    left:10pc;
+}
+
+
+#OrganizacaoeProjeto #Organizacao,#Projeto{
+    width:40%;
+    font-size:3vh;
+}
+
+#MinhaparteResultado{
+    margin-top: 10%;
+    display:flex;
+    width:70%;
+    font-size: 3vh;
+}
+
+#MinhaparteResultado #MinhaParte{
+ position:relative;
+ bottom:20vh;
+    
+}
+
+#MinhaparteResultado #resultado{
+    width:fit-content;
+    position:relative;
+    left:6pc;
+    bottom:10vh;
+}
+
+
+
