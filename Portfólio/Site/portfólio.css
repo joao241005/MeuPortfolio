@@ -76,7 +76,7 @@ body{
 
 #apresentacao_resumo{
     position: relative;
-    top:30vh;
+    top:40vh;
     margin: 0;
     left: 30vh;
     width: fit-content;
@@ -86,7 +86,7 @@ body{
     font-family:sans-serif;
 }
 
-#apresentacao_resumo h1,p,h4{
+#apresentacao_resumo #nome,p,h4{
     position:relative;
     display:flex;
     margin-left: 0vh;
@@ -95,10 +95,13 @@ body{
 
 #apresentacao_resumo h4{
     font-weight: normal;
+    overflow: hidden;
+    white-space: pre;
 }
 
-#apresentacao_resumo h1{
+#apresentacao_resumo #nome{
     color: #477c89;
+    
 }
 
 #apresentacao_resumo p,h4{
@@ -113,30 +116,37 @@ body{
     right: 59.9vh;
 }
 
-#resumo button{
+#resumo #btn{
     position:relative;
     width: 17vh;
     height: 7vh;
     display:flex;
     align-items:center;
     justify-content:center;
-    top: 23vh;
+    top: 33vh;
     left: 30vh;
     background-color:#477c89;
-    /* color: #01040C; */
     border-radius: 6px;
     border: none;
-    /* font-family: 'Montserrat', sans-serif; */
     font-weight: 600;
     font-size: var(--bs-body-font-size);
+    font-family: sans-serif;
 }
 
-#resumo button:hover{
+#resumo #btn:hover{
     color:#dcd8d8;
     cursor: pointer;
     transform: translate(0, -3px);
     transition: 0.2s;
     box-shadow: 0px 20px 70px -10px #477c89; 
+}
+
+#Curriculo{
+    width: fit-content;
+    display: flex;
+    position: relative;
+    top:23vh;
+    left:70vh;
 }
 
 #main{
@@ -223,9 +233,12 @@ body{
     font-size: 3em;
 }
 
-#Projetos{
-    display:flex;
-    width:fit-content;
+.Projeto{
+    display:inline;
+    width: 20vh;
+    height: 20vh;
+    margin-left:15vh;
+    background-color: #477c89;
 }
 
 
