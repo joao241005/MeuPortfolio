@@ -147,6 +147,14 @@ body{
     position: relative;
     top:23vh;
     left:70vh;
+    background-color:transparent;
+}
+
+#Curriculo:hover{
+    cursor: pointer;
+    transform: translate(0, -3px);
+    transition: 0.2s;
+    box-shadow: 0px 20px 70px -10px #477c89;
 }
 
 #main{
