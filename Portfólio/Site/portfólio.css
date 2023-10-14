@@ -86,6 +86,10 @@ body{
     font-family:sans-serif;
 }
 
+#Apresentacao_Nome{
+    display: inline-flex;
+}
+
 #apresentacao_resumo #nome,p,h4{
     position:relative;
     display:flex;
@@ -101,12 +105,20 @@ body{
 
 #apresentacao_resumo #nome{
     color: #477c89;
-    
 }
 
 #apresentacao_resumo p,h4{
     color: white;
     font-size:90%;
+}
+
+#apresentacao_resumo #barra{
+    display:block;
+    position:relative;
+    bottom:3vh;
+    font-size:4ch;
+    color:white;
+    font-weight:800;
 }
 
 #apresentacao_resumo #txt{

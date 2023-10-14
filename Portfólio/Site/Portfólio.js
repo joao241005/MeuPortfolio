@@ -1,3 +1,5 @@
+
+//Animação do nome escrevdno 
 const elemento = document.getElementById("nome");
 const text = "João Pedro Santos";
 const intervalo = 100;
@@ -23,3 +25,16 @@ function animacao(elemento, text, intervalo) {
 }
 
 animacao(elemento, text, intervalo);
+
+
+//Animação da barra
+const barra = document.getElementById('barra');
+let isHidden = false;
+
+function toggleVisibility() {
+    isHidden = !isHidden;
+    barra.style.visibility = isHidden ? 'hidden' : 'visible';
+}
+
+const interval = setInterval(toggleVisibility, 500); // Alterne a cada 500 milissegundos (0,5 segundos)
+
