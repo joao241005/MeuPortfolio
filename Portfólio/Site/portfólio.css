@@ -27,7 +27,7 @@ body{
 }
 
 #container:hover{
-     filter: invert(10%);    
+    box-shadow: 0px -10px 10px 10px #000000;    
 }
 
 #container a{
@@ -247,6 +247,11 @@ body{
     color:white;
 }
 
+#Projetos{
+    width: fit-content;
+    height: fit-content;
+}
+
 #PrincipaisProjetos #Github{
     display: inline;
     font-size:larger;
@@ -257,8 +262,8 @@ body{
     width:4vw;
     height:fit-content;
     position:relative;
-    left:15vw;
-    bottom:9vh;
+    left:18vw;
+    bottom:10vh;
  }
 
  
