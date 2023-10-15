@@ -247,6 +247,29 @@ body{
     color:white;
 }
 
+#PrincipaisProjetos #Github{
+    display: inline;
+    font-size:larger;
+}
+
+#PrincipaisProjetos #Github img{
+    display: inline;
+    width:4vw;
+    height:fit-content;
+    position:relative;
+    left:15vw;
+    bottom:9vh;
+ }
+
+ 
+#PrincipaisProjetos #Github img:hover{
+    width: 3.5vw;
+    height: fit-content;
+    transition: 0.2s;
+ }
+
+
+
 #PrincipaisProjetos h1{
     color:#ffffff;
     font-size:xxx-large;
@@ -264,6 +287,7 @@ body{
 
 
 #TCC{
+    display: block;
     margin-top: 5vh;
     width:80%;
     height: fit-content;
